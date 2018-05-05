@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+        <![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Faby | Gallery</title>
+        <!-- Bootstrap -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css?v=2.1.5" media="screen" />
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/mediaquery.css" rel="stylesheet" type="text/css">
+        <script src="http://www.youtube.com/player_api"></script>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--Header Start Here-->
+        <header>
+            <div class="container-fluid">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" class="img-responsive"/></a>
+                </div>
+                <div class="social_icon hidden-xs">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navbar navbar-default main_nav" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" /></a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="about.html">About</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="gallery.html"> Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <ul class="mobile_social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                        </div><!--/.nav-collapse -->
+                    </div>
+                </div>
+            </header>
+            <div class="banner">
+                <img src="images/banner/gallery.jpg" class="img-responsive"/>
+            </div>
+            <!--Header End Here-->
+            <!--Main Content Start Here-->
+            <section class="main">
+                <div class="container">
+                    <div class="gallery">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="btn_list">
+                                    <ul>
+                                        <li><a href="gallery.html" class="btn btn-primary btn_effect active">Photos</a></li>
+                                        <li><a href="gallery_video.html" class="btn btn-primary btn_effect">Videos</a></li>
+                                    </ul>
+                                </div>
+                                <div class="gallery_shorting hidden-xs">
+                                    <ul>
+                                        <li><a href="javascript:void(0);" data-filter="*">All</a></li>
+                                        <li><a href="javascript:void(0);" data-filter=".wedding">Wedding</a></li>
+                                        <li><a href="javascript:void(0);" data-filter=".fashion">Fashion</a></li>
+                                        <li><a href="javascript:void(0);" data-filter=".dummy">Dummy</a></li>
+                                        <li><a href="javascript:void(0);" data-filter=".only-bridal-shoots">Only bridal shoots</a></li>
+                                        <li><a href="javascript:void(0);" data-filter=".dummy1">Dummy1</a></li>
+                                        <li><a href="javascript:void(0);" data-filter=".dummy2">Dummy2</a></li>
+                                        <li><a href="javascript:void(0);" data-filter=".dummy3">Dummy3</a></li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+								<div class="gfilter-m visible-xs">
+								 <select class="gallery-select">
+									   <option  value="*">All</option> 
+									   <option  value=".wedding">Wedding</option> 
+									   <option  value=".fashion">Fashion</option> 
+									   <option  value=".dummy">Dummy</option> 
+									   <option  value=".only-bridal-shoots">Only bridal shoots</option> 
+									   <option  value=".dummy1">Dummy1</option> 
+									   <option  value=".dummy2">Dummy2</option> 
+									   <option  value=".dummy3">Dummy3</option> 
+								 </select>
+							   </div>  
+                                <div class="gallery_details">
+                                    <ul class="gallery-container">
+                                        <li>
+                                            <a href="images/gallery/single/1.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/1.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="wedding">
+                                            <a href="images/gallery/single/2.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/2.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="fashion">
+                                            <a href="images/gallery/single/3.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/3.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy">
+                                            <a href="images/gallery/single/4.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/4.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="only-bridal-shoots">
+                                            <a href="images/gallery/single/5.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/5.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy1">
+                                            <a href="images/gallery/single/6.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/6.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy2">
+                                            <a href="images/gallery/single/7.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/7.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy3">
+                                            <a href="images/gallery/single/8.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/8.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="images/gallery/single/9.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/9.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="wedding">
+                                            <a href="images/gallery/single/10.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/10.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="fashion">
+                                            <a href="images/gallery/single/11.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/11.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy">
+                                            <a href="images/gallery/single/12.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/12.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="only-bridal-shoots">
+                                            <a href="images/gallery/single/13.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/13.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy1">
+                                            <a href="images/gallery/single/14.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/14.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy2">
+                                            <a href="images/gallery/single/15.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/15.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy3">
+                                            <a href="images/gallery/single/16.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/16.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="images/gallery/single/17.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/17.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="wedding">
+                                            <a href="images/gallery/single/18.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/18.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="fashion">
+                                            <a href="images/gallery/single/19.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/19.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy">
+                                            <a href="images/gallery/single/20.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/20.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="only-bridal-shoots">
+                                            <a href="images/gallery/single/21.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/21.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy1">
+                                            <a href="images/gallery/single/22.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/22.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy2">
+                                            <a href="images/gallery/single/23.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/23.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy3">
+                                            <a href="images/gallery/single/24.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/24.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="images/gallery/single/25.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/25.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="wedding">
+                                            <a href="images/gallery/single/26.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/26.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="fashion">
+                                            <a href="images/gallery/single/27.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/27.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy">
+                                            <a href="images/gallery/single/28.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/28.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="only-bridal-shoots">
+                                            <a href="images/gallery/single/29.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/29.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy1">
+                                            <a href="images/gallery/single/30.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/30.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy2">
+                                            <a href="images/gallery/single/31.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/31.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy3">
+                                            <a href="images/gallery/single/32.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/32.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy3">
+                                            <a href="images/gallery/single/33.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/33.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="images/gallery/single/34.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/34.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="wedding">
+                                            <a href="images/gallery/single/35.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/35.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="fashion">
+                                            <a href="images/gallery/single/36.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/36.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy">
+                                            <a href="images/gallery/single/37.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/37.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="only-bridal-shoots">
+                                            <a href="images/gallery/single/38.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/38.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy1">
+                                            <a href="images/gallery/single/39.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/39.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                        <li class="dummy2">
+                                            <a href="images/gallery/single/40.jpg" class="fancybox" data-fancybox-group="gallery">
+                                                <img src="images/gallery/single/40.jpg"/>
+                                                <span class="img_hover"><img src="images/serach_icon.png" /></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="loader">
+                                    <img src="images/loader.png" width="82" height="20" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Main Content End Here-->
+            <!-- Modal -->
+            <!--Footer Start Here-->
+            <footer>
+                <div class="footer_wrapper">
+                    <div class="footer_data">
+                        <a href="#"><img src="images/logo_footer.png" /></a>
+                        <p>Copyright © Faby Makeup Artist.  All rights reserved</p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="footer_social">
+                        <p>Follow me on</p>
+                        <ul>
+                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!--Footer End Here-->
+            
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/owl.carousel.js"></script>
+            <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+            <script src="js/jquery.isotope.min.js"></script>
+            <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+            <script src="js/custom.js"></script>
+        </body>
+    </html>
